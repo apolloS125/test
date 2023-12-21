@@ -7,7 +7,7 @@ def check_brackets(brackets):
         if i in '({[':
             lst.append(i)
         elif i in ')}]':
-            if not lst or lst[-1] != mapping[i]:
+            if not lst or lst[-1] != mapping[i]: 
                 return "Not Equivalent"
             lst.pop()
 
